@@ -13,7 +13,7 @@ $.ajax({
       var html = '<div>';
 
       for (var i=1; i< 10; i++){
-        html += '<img src = ' + data.data.children[i].data.thumbnail + '>';
+        html += '<img src = ' + data.data.children[i].data.thumbnail + '>'+
         '<p>' + data.data.children[i].data.title + '</p>';
       }
 
